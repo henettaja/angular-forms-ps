@@ -1,0 +1,86 @@
+<div class="container">
+  <h2>User settings</h2>
+  <form>
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" class="form-control" />
+    </div>
+    <div class="form-check form-group">
+      <input
+        id="emailoffers"
+        name="emailoffers"
+        type="checkbox"
+        class="form-check-input"
+      />
+      <label for="emailoffers" class="form-check-label"
+        >Email special offers</label
+      >
+    </div>
+    <p>User interface style</p>
+    <div class="form-group">
+      <div class="form-check">
+        <input
+          id="lightInterface"
+          name="interfaceStyle"
+          value="light"
+          type="radio"
+          class="form-check-input"
+          checked
+        />
+        <label for="lightInterface" class="form-check-label">Light</label>
+      </div>
+      <div class="form-check">
+        <input
+          id="mediumInterface"
+          name="interfaceStyle"
+          value="light"
+          type="radio"
+          class="form-check-input"
+          checked
+        />
+        <label for="mediumInterface" class="form-check-label">Medium</label>
+      </div>
+      <div class="form-check">
+        <input
+          id="darkInterface"
+          name="interfaceStyle"
+          value="Dark"
+          type="radio"
+          class="form-check-input"
+          checked
+        />
+        <label for="darkInterface" class="form-check-label">Dark</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="subscriptionType">Subscription type</label>
+      <select
+        id="subscriptionType"
+        name="subscriptionType"
+        class="form-control"
+      >
+        <option value="monthly">Monthly</option>
+        <option value="annual">Annual</option>
+        <option value="lifetime">Lifetime</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="notes">Notes</label>
+      <textarea id="password" class="form-control" rows="3"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input
+        id="password"
+        name="password"
+        type="password"
+        class="form-control"
+      />
+    </div>
+    <div class="form-group">
+      <label for="testing">Testing</label>
+      <input id="testing" name="testing" type="color" class="form-control" />
+    </div>
+    <button class="btn btn-primary">Send</button>
+  </form>
+</div>
